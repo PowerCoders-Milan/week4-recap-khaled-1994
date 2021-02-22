@@ -151,10 +151,10 @@ a{
     width: 200px;
     height: 200px;
 }
-button{
+.but1,  .but2, .but3, .but4, .but5, .but6, .but7, .but8 {
     margin-left: 53px;
     margin-top: 30px;
-    background-color: tomato;
+    background-color: rgb(112, 128, 112);
 }
 /*product-veiw*/
 img{
@@ -162,21 +162,93 @@ img{
     height: 300px;
     float: left;
 }
+.back{
+    position: absolute;
+    right: 100px;
+    top: 40px;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.text-title{
+    text-align: center;
+    font-size: large;
+    }
+.buynow{
+    position: absolute;
+    right: 700px;
+    bottom: 350px;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    background-color:mediumvioletred;
+
+}
 .seeproduct{
     display: flex;
-    width: 200px;
-    height: 150px;
+    width: 600px;
+    height: 200px;
     justify-content: space-between;
-    
+    align-items: center;
+    margin: 20px;
+    position: absolute;
+    left: 600px;
+    bottom: 100px;
     
     
 
 }
-.seeproduct >div{
+.seeproduct > div{
+    flex: 1;
     background-color: DodgerBlue;
     margin: 10px;
     line-height: 75px;
-    font-size: 30px;
+    font-size: 10px;
     border-radius: 10px;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    
   }
-  
+  .see-product1{
+   align-items: center;
+   width: 100px;
+   height: 30px;
+   margin-top: 30px;
+   margin-left: 20px;
+   margin-right: 20px;
+   text-align: center;
+   background-color: rgb(20, 70, 5);
+  }
+  .see-product2{
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: rgb(20, 70, 5);
+   }
+   .see-product3{
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: rgb(20, 70, 5);
+   }
+   .see-product4{
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: rgb(20, 70, 5);
+   }
+
