@@ -187,6 +187,7 @@ img{
 }
 .seeproduct{
     display: flex;
+    flex-direction: row;
     width: 600px;
     height: 200px;
     justify-content: space-between;
@@ -200,7 +201,6 @@ img{
 
 }
 .seeproduct > div{
-    flex: 1;
     background-color: DodgerBlue;
     margin: 10px;
     line-height: 75px;
@@ -250,5 +250,4 @@ img{
     margin-right: 20px;
     text-align: center;
     background-color: rgb(20, 70, 5);
-   }
-
+}
